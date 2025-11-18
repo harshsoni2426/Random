@@ -1,0 +1,27 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.container {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%); /* Perfect center */
+    padding: 20px;
+    background: #fff;
+    text-align: center;
+    max-width: 90vw;
+    word-wrap: break-word;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 8px 5px;
+    font-size: 1rem;
+    border-radius: 8px;
+    border: none;
+    background: #f3f3f3;
+    cursor: pointer;
+}
